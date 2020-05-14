@@ -1,5 +1,5 @@
 import React from "react";
-import { Logo, Button, Body, Overlay } from "./style";
+import { Logo, Button, Body, Overlay, Buttons } from "./style";
 
 function App() {
   return (
@@ -21,11 +21,13 @@ function App() {
           </svg>
         </Logo>
 
-        <Button>Sobre</Button>
-        <Button>Habilidades</Button>
-        <Button>Trabalhos</Button>
-        <Button>Projetos pessoais</Button>
-        <Button>Contato</Button>
+        <Buttons>
+          <Button>Sobre</Button>
+          <Button>Habilidades</Button>
+          <Button>Trabalhos</Button>
+          <Button>Projetos pessoais</Button>
+          <Button>Contato</Button>
+        </Buttons>
       </Body>
       <Overlay />
     </>

@@ -8,7 +8,7 @@ export const Body = styled.body`
   -webkit-font-smoothing: antialiased;
   display: flex;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
-    url("https://wallpaperaccess.com/full/1657858.jpg");
+    url("https://wallpaperaccess.com/full/1657858.jpg") bottom;
   width: 100%;
   height: 100vh;
   align-items: center;
@@ -27,8 +27,13 @@ export const Overlay = styled.div`
 `;
 
 export const Logo = styled.div`
+  display: flex;
   position: absolute;
   animation: slideIn 1.5s;
+  height: 50%;
+  width: 60%;
+  align-items: flex-start;
+  justify-content: center;
 
   #logo {
     animation: fill ease 1.5s forwards 2.5s;
@@ -57,11 +62,20 @@ export const Logo = styled.div`
   }
 `;
 
+export const Buttons = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-top: 300px;
+  align-items: center;
+  justify-content: center;
+`;
+
 export const Button = styled.button`
   animation: slideUp 1.5s;
   cursor: pointer;
-  margin: 300px 10px 0 10px;
   position: relative;
+  outline: none;
   background: none;
   color: aqua;
   font-weight: lighter;
@@ -69,6 +83,8 @@ export const Button = styled.button`
   text-decoration: none;
   border: 0.1em solid aqua;
   padding: 1em 2em;
+  margin-top: 30px;
+  margin-right: 10px;
   &::before {
     content: "";
     display: block;
