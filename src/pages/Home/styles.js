@@ -1,38 +1,12 @@
 import styled from "styled-components";
 
-export const Body = styled.body`
-  position: relative;
-  animation: expand 0.8s ease forwards;
-  transition: all 0.8s ease;
-
-  -webkit-font-smoothing: antialiased;
-  display: flex;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
-    url("https://wallpaperaccess.com/full/1657858.jpg") bottom;
-  width: 100%;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-`;
-
-export const Overlay = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  height: 100%;
-  z-index: -10;
-  background-color: var(--contrast-color);
-`;
-
 export const Logo = styled.div`
   display: flex;
   position: absolute;
   animation: slideIn 1.5s;
   height: 50%;
   width: 60%;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
 
   #logo {
@@ -69,10 +43,10 @@ export const Buttons = styled.div`
   margin-top: 300px;
   align-items: center;
   justify-content: center;
+  animation: slideUp 1.5s;
 `;
 
 export const Button = styled.button`
-  animation: slideUp 1.5s;
   cursor: pointer;
   position: relative;
   outline: none;
@@ -81,7 +55,7 @@ export const Button = styled.button`
   font-weight: lighter;
   text-transform: uppercase;
   text-decoration: none;
-  border: 0.1em solid aqua;
+  border: 0.2em solid aqua;
   padding: 1em 2em;
   margin-top: 30px;
   margin-right: 10px;
