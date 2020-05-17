@@ -4,11 +4,17 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #222;
+html {
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scroll-snap-type: y mandatory;
 }
 
-:root {
-  --secondary-color: #151226;
-  --contrast-color: #222;
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-color: #222;
+  -webkit-font-smoothing: antialiased;
 }

@@ -1,5 +1,21 @@
 import styled from "styled-components";
 
+export const Container = styled.div`
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    url("https://wallpaperaccess.com/full/1657858.jpg") bottom no-repeat fixed;
+
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(300px);
+  scroll-snap-type: y mandatory;
+  scroll-snap-align: start;
+`;
+
 export const Logo = styled.div`
   display: flex;
   position: absolute;
@@ -10,7 +26,7 @@ export const Logo = styled.div`
   justify-content: center;
 
   #logo {
-    animation: fill ease 1.5s forwards 2.5s;
+    animation: fill ease 1.5s forwards 3s;
   }
 
   #logo path:nth-child(1) {
@@ -39,11 +55,16 @@ export const Logo = styled.div`
 export const Buttons = styled.div`
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
+  width: 60%;
   margin-top: 300px;
   align-items: center;
   justify-content: center;
   animation: slideUp 1.5s;
+
+  a {
+    color: aqua;
+    text-decoration: none;
+  }
 `;
 
 export const Button = styled.button`
