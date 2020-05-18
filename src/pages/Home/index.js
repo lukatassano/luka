@@ -1,16 +1,13 @@
 import React from "react";
-import Aircnc from "../../Components/Aircnc";
-import { Link, NavLink } from "react-router-dom";
-import { Container, Logo, Button, Buttons } from "./styles";
+import About from "../About";
+import Work from "../Work";
+import Contact from "../Contact";
+import { Container, Logo, Buttons } from "./styles";
 
-function App({ history }) {
-  function handleSubmit(page) {
-    history.push(`/${page}`);
-  }
-
+function App() {
   return (
     <>
-      <Container className="container">
+      <Container className="container" id="home">
         <Logo>
           <svg
             id="logo"
@@ -28,18 +25,26 @@ function App({ history }) {
         </Logo>
 
         <Buttons>
-          <a href="#aircnc">
-            <Button>Sobre</Button>
+          <a href="#about">
+            <div className="btn btn-one">
+              <span>Sobre</span>
+            </div>
           </a>
-          <a>
-            <Button>Habilidades</Button>
+          <a href="#work">
+            <div className="btn btn-one">
+              <span>Trabalhos</span>
+            </div>
           </a>
-          <Button>Trabalhos</Button>
-          <Button>Projetos pessoais</Button>
-          <Button>Contato</Button>
+          <a href="#contact">
+            <div className="btn btn-one">
+              <span>Contato</span>
+            </div>
+          </a>
         </Buttons>
       </Container>
-      <Aircnc />
+      <About />
+      <Work />
+      <Contact />
     </>
   );
 }

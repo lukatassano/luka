@@ -25,6 +25,10 @@ export const Logo = styled.div`
   align-items: center;
   justify-content: center;
 
+  svg {
+    margin-bottom: 100px;
+  }
+
   #logo {
     animation: fill ease 1.5s forwards 3s;
   }
@@ -53,6 +57,7 @@ export const Logo = styled.div`
 `;
 
 export const Buttons = styled.div`
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
   display: flex;
   flex-wrap: wrap;
   width: 60%;
@@ -62,8 +67,82 @@ export const Buttons = styled.div`
   animation: slideUp 1.5s;
 
   a {
-    color: aqua;
+    outline: none;
     text-decoration: none;
+  }
+
+  span {
+    outline: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: roboto;
+    font-weight: 100;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .btn {
+    outline: none;
+    margin: 10px 10px;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+  }
+
+  /* 
+========================
+      BUTTON ONE
+========================
+*/
+  .btn-one {
+    color: #fff;
+    transition: all 0.3s;
+    position: relative;
+  }
+  .btn-one span {
+    transition: all 0.3s;
+  }
+  .btn-one::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgba(255, 255, 255, 0.5);
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+    transform: scale(0.1, 1);
+  }
+  .btn-one:hover span {
+    letter-spacing: 2px;
+  }
+  .btn-one:hover::before {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+  .btn-one::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .btn-one:hover::after {
+    opacity: 0;
+    transform: scale(0.1, 1);
   }
 `;
 
@@ -72,11 +151,11 @@ export const Button = styled.button`
   position: relative;
   outline: none;
   background: none;
-  color: aqua;
+  color: white;
   font-weight: lighter;
   text-transform: uppercase;
   text-decoration: none;
-  border: 0.2em solid aqua;
+  border: 0.2em solid #ddd;
   padding: 1em 2em;
   margin-top: 30px;
   margin-right: 10px;
