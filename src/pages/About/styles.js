@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Container = styled.body`
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
   display: flex;
   position: relative;
   transition: all 0.8s ease;

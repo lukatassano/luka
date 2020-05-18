@@ -57,7 +57,6 @@ export const Logo = styled.div`
 `;
 
 export const Buttons = styled.div`
-  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap");
   display: flex;
   flex-wrap: wrap;
   width: 60%;

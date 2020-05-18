@@ -15,7 +15,7 @@ function About() {
 
         <a href="#home">
           <div className="btn btn-one">
-            <span>Voltar</span>
+            <span>Home</span>
           </div>
         </a>
       </div>
