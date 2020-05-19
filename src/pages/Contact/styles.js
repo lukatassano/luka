@@ -29,10 +29,10 @@ export const Container = styled.div`
 
       a {
         cursor: pointer;
-        transition: opacity 0.6s;
+        transition: opacity 0.3s;
 
         &:hover {
-          opacity: 60%;
+          opacity: 50%;
         }
       }
     }
