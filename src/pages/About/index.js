@@ -1,4 +1,6 @@
 import React from "react";
+import { IoIosArrowDown } from "react-icons/io";
+
 import { Container } from "./styles";
 
 function About() {
@@ -8,14 +10,14 @@ function About() {
         <h1>SOBRE</h1>
         <div className="text">
           <p>
-            Eu sou Luka Tassano, desenvolvedor e designer. Tenho uma experiência
-            maior com front-end e mobile, mas possuo conhecimentos de back-end.
+            Eu sou Luka Tassano, desenvolvedor fullstack Javascript. Tenho
+            experiência em Node, React e React Native.
           </p>
         </div>
 
-        <a href="#home">
+        <a href="#work">
           <div className="btn btn-one">
-            <span>Home</span>
+            <IoIosArrowDown className="img" color="#fff" size={50} />
           </div>
         </a>
       </div>

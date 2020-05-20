@@ -32,7 +32,7 @@ function App() {
           </a>
           <a href="#work">
             <div className="btn btn-one">
-              <span>Trabalhos</span>
+              <span>Projetos</span>
             </div>
           </a>
           <a href="#contact">

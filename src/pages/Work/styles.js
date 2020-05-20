@@ -11,11 +11,20 @@ export const Container = styled.div`
   scroll-snap-align: start;
 `;
 
-export const Works = styled.ul`
+export const Works = styled.div`
+  height: 90%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  scroll-snap-type: x mandatory;
+  text-align: justify;
+  overflow: scroll;
+  scroll-snap-points-y: repeat(100px);
+  align-items: center;
 
   div {
+    align-items: center;
+    scroll-snap-align: center;
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -145,81 +154,20 @@ export const Works = styled.ul`
   }
 `;
 
-export const Button = styled.a`
-  outline: none;
-  text-decoration: none;
+export const Button = styled.div`
+  display: flex;
+  margin-bottom: 100px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s;
 
-  span {
+  &:hover {
+    opacity: 60%;
+  }
+
+  a {
     outline: none;
-    text-transform: uppercase;
-    color: #fff;
-    font-family: roboto;
-    font-weight: 100;
-    font-size: 20px;
     text-decoration: none;
-  }
-
-  .btn {
-    outline: none;
-    margin: 40px 10px;
-    line-height: 50px;
-    height: 50px;
-    text-align: center;
-    width: 250px;
-    cursor: pointer;
-  }
-
-  /* 
-========================
-      BUTTON ONE
-========================
-*/
-  .btn-one {
-    color: #fff;
-    transition: all 0.3s;
-    position: relative;
-  }
-  .btn-one span {
-    transition: all 0.3s;
-  }
-  .btn-one::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    opacity: 0;
-    transition: all 0.3s;
-    border-top-width: 1px;
-    border-bottom-width: 1px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-top-color: rgba(255, 255, 255, 0.5);
-    border-bottom-color: rgba(255, 255, 255, 0.5);
-    transform: scale(0.1, 1);
-  }
-  .btn-one:hover span {
-    letter-spacing: 2px;
-  }
-  .btn-one:hover::before {
-    opacity: 1;
-    transform: scale(1, 1);
-  }
-  .btn-one::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    transition: all 0.3s;
-    background-color: rgba(255, 255, 255, 0.1);
-  }
-  .btn-one:hover::after {
-    opacity: 0;
-    transform: scale(0.1, 1);
   }
 `;

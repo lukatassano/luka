@@ -1,4 +1,6 @@
 import React from "react";
+import { IoIosArrowDown } from "react-icons/io";
+
 import planta from "../../assets/logo.png";
 
 import { Container, Works, Button } from "./styles";
@@ -68,9 +70,9 @@ function Work() {
         </div>
       </Works>
       <Button href="#home">
-        <div className="btn btn-one">
-          <span>Home</span>
-        </div>
+        <a href="#contact">
+          <IoIosArrowDown className="img" color="#fff" size={50} />
+        </a>
       </Button>
     </Container>
   );
