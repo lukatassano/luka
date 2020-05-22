@@ -160,10 +160,11 @@ export const Button = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: opacity 0.3s;
+  transition: all 0.5s;
 
   &:hover {
     opacity: 60%;
+    transform: translate3d(0, 15px, 0);
   }
 
   a {
