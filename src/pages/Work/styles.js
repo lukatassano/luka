@@ -50,7 +50,7 @@ export const Works = styled.div`
       margin: 0 20px;
       display: flex;
       border-radius: 20px;
-      height: 420px;
+      height: 400px;
       width: 206px;
       background-color: #777;
       align-items: center;
@@ -60,7 +60,7 @@ export const Works = styled.div`
     .bethehero {
       display: flex;
       border-radius: 15px;
-      height: 400px;
+      height: 96%;
       width: 200px;
       background-color: #fff;
       align-items: center;
@@ -74,7 +74,7 @@ export const Works = styled.div`
     .aircnc {
       display: flex;
       border-radius: 15px;
-      height: 400px;
+      height: 96%;
       width: 200px;
       background-color: #fff;
       align-items: center;
@@ -88,7 +88,7 @@ export const Works = styled.div`
     .rocketshoes {
       display: flex;
       border-radius: 15px;
-      height: 400px;
+      height: 96%;
       width: 200px;
       background-color: #fff;
       align-items: center;
@@ -101,7 +101,7 @@ export const Works = styled.div`
     .gonative {
       display: flex;
       border-radius: 15px;
-      height: 400px;
+      height: 96%;
       width: 200px;
       background-color: #fff;
       align-items: center;
@@ -117,7 +117,7 @@ export const Works = styled.div`
     .githubstars {
       display: flex;
       border-radius: 15px;
-      height: 400px;
+      height: 96%;
       width: 200px;
       background-color: #fff;
       align-items: center;
@@ -132,7 +132,7 @@ export const Works = styled.div`
       font-family: roboto;
       flex-direction: column;
       border-radius: 15px;
-      height: 400px;
+      height: 96%;
       width: 200px;
       background-color: #fff;
       align-items: center;
@@ -156,7 +156,7 @@ export const Works = styled.div`
 
 export const Button = styled.div`
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 8%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
