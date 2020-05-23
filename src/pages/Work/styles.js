@@ -33,7 +33,7 @@ export const Works = styled.div`
       cursor: pointer;
       outline: none;
       text-decoration-line: none;
-      transition: opacity 0.3s;
+      transition: all 0.4s;
       z-index: 11;
 
       #block {
@@ -41,7 +41,7 @@ export const Works = styled.div`
       }
 
       &:hover {
-        opacity: 80%;
+        transform: translate3d(-0, -10px, 0);
       }
     }
 
@@ -156,7 +156,7 @@ export const Works = styled.div`
 
 export const Button = styled.div`
   display: flex;
-  margin-bottom: 8%;
+  margin-bottom: 15vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
