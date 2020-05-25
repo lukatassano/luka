@@ -10,8 +10,8 @@ function About() {
         <h1>SOBRE</h1>
         <div className="text">
           <p>
-            Eu sou Luka Tassano, desenvolvedor fullstack Javascript. Tenho
-            experiência em Node, React e React Native.
+            Desenvolvedor full stack Javascript. Experiência em
+            Node.js(back-end), React(front-end) e React Native(mobile).
           </p>
         </div>
 
