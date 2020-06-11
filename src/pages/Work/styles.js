@@ -12,7 +12,7 @@ export const Container = styled.div`
 `;
 
 export const Works = styled.div`
-  height: 90%;
+  height: 60vh;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -21,6 +21,14 @@ export const Works = styled.div`
   overflow: scroll;
   scroll-snap-points-y: repeat(100px);
   align-items: center;
+
+  ::-webkit-scrollbar-track {
+    background-color: #444;
+  }
+  ::-webkit-scrollbar {
+    width: 0px;
+    height: 3px;
+  }
 
   div {
     align-items: center;
@@ -156,7 +164,7 @@ export const Works = styled.div`
 
 export const Button = styled.div`
   display: flex;
-  margin-bottom: 15vh;
+  margin-top: 50px;
   flex-direction: column;
   align-items: center;
   justify-content: center;

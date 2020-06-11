@@ -9,9 +9,9 @@ export const Container = styled.body`
   align-items: center;
   justify-content: center;
   background-size: cover;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)),
-    url("https://i.pinimg.com/originals/51/95/eb/5195ebb8c5f9772deda82aa2937134d3.jpg")
-      no-repeat fixed 100% 100%;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),
+    url("https://images.unsplash.com/photo-1548092372-0d1bd40894a3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=50")
+      no-repeat fixed bottom;
   scroll-snap-align: start;
 
   #about {

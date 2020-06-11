@@ -10,6 +10,16 @@ function Work() {
     <Container>
       <Works>
         <div id="work">
+          <a href="https://github.com/lukatassano/ecoleta-mobile">
+            <nav className="display">
+              <div className="bethehero">
+                <img
+                  id="aircnc"
+                  src="https://github.com/lukatassano/ecoleta-mobile/blob/master/src/assets/logo.png?raw=true"
+                />
+              </div>
+            </nav>
+          </a>
           <a href="https://github.com/lukatassano/bethehero">
             <nav className="display">
               <div className="bethehero">

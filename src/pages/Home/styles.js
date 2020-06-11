@@ -7,7 +7,7 @@ export const Container = styled.div`
   height: 100vh;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
     url("https://wallpaperaccess.com/full/1657858.jpg") bottom no-repeat fixed;
 
   scroll-snap-type: mandatory;

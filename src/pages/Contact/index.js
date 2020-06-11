@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
 
 import { Container } from "./styles";
@@ -20,11 +21,18 @@ function Contact() {
           </a>
         </div>
 
-        <a href="#home">
-          <div className="btn btn-one">
-            <span>Home</span>
-          </div>
-        </a>
+        <div className="buttons">
+          <Link to="/cv">
+            <div className="btn btn-one">
+              <span>Currículo</span>
+            </div>
+          </Link>
+          <a href="#home">
+            <div className="btn btn-one">
+              <span>Voltar</span>
+            </div>
+          </a>
+        </div>
       </div>
     </Container>
   );
