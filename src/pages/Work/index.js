@@ -12,7 +12,7 @@ function Work() {
         <div id="work">
           <a href="https://github.com/lukatassano/ecoleta-mobile">
             <nav className="display">
-              <div className="bethehero">
+              <div className="project">
                 <img
                   id="aircnc"
                   src="https://github.com/lukatassano/ecoleta-mobile/blob/master/src/assets/logo.png?raw=true"
@@ -22,7 +22,7 @@ function Work() {
           </a>
           <a href="https://github.com/lukatassano/bethehero">
             <nav className="display">
-              <div className="bethehero">
+              <div className="project">
                 <img
                   id="aircnc"
                   src="https://github.com/lukatassano/beTheHero/raw/master/assets/logo.svg?sanitize=true"
@@ -33,7 +33,7 @@ function Work() {
 
           <a href="https://github.com/lukatassano/aircnc">
             <nav>
-              <div className="aircnc">
+              <div className="project">
                 <img
                   id="aircnc"
                   src="https://github.com/lukatassano/AirCnC/raw/master/mobile/src/assets/logo@3x.png"
@@ -44,7 +44,7 @@ function Work() {
 
           <a href="https://github.com/lukatassano/rocketshoes-mobile">
             <nav>
-              <div className="rocketshoes">
+              <div className="project">
                 <img
                   id="rocketshoes"
                   src="https://github.com/lukatassano/rocketshoes/raw/master/images/rocketshoesLogo.svg?sanitize=true"
@@ -55,7 +55,7 @@ function Work() {
 
           <a href="https://github.com/lukatassano/GoNative">
             <nav>
-              <div className="gonative">
+              <div className="project">
                 <h1>GoNative</h1>
               </div>
             </nav>
@@ -63,7 +63,7 @@ function Work() {
 
           <a href="https://github.com/lukatassano/githubStars">
             <nav>
-              <div className="githubstars">
+              <div className="project">
                 <h1>GithubStars</h1>
               </div>
             </nav>
