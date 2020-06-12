@@ -65,7 +65,7 @@ export const Works = styled.div`
       justify-content: center;
     }
 
-    .bethehero {
+    .project {
       display: flex;
       border-radius: 15px;
       height: 96%;
@@ -73,66 +73,13 @@ export const Works = styled.div`
       background-color: #fff;
       align-items: center;
       justify-content: center;
+      font-family: sans-serif;
+      font-family: roboto;
+      flex-direction: column;
+      text-decoration: none;
 
       img {
         width: 80%;
-      }
-    }
-
-    .aircnc {
-      display: flex;
-      border-radius: 15px;
-      height: 96%;
-      width: 200px;
-      background-color: #fff;
-      align-items: center;
-      justify-content: center;
-
-      img {
-        width: 80%;
-      }
-    }
-
-    .rocketshoes {
-      display: flex;
-      border-radius: 15px;
-      height: 96%;
-      width: 200px;
-      background-color: #fff;
-      align-items: center;
-      justify-content: center;
-
-      img {
-        width: 80%;
-      }
-    }
-    .gonative {
-      display: flex;
-      border-radius: 15px;
-      height: 96%;
-      width: 200px;
-      background-color: #fff;
-      align-items: center;
-      justify-content: center;
-
-      h1 {
-        font-family: roboto;
-        text-decoration: none;
-        outline: none;
-      }
-    }
-
-    .githubstars {
-      display: flex;
-      border-radius: 15px;
-      height: 96%;
-      width: 200px;
-      background-color: #fff;
-      align-items: center;
-      justify-content: center;
-
-      h1 {
-        font-family: roboto;
       }
     }
 
