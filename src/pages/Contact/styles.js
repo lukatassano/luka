@@ -31,9 +31,31 @@ export const Container = styled.div`
         cursor: pointer;
         transition: opacity 0.3s;
 
-        &:hover {
-          opacity: 60%;
+        .facebook {
+          fill: #fff;
+          transition: 0.3s;
+
+          &:hover {
+            fill: #3b5998;
+          }
         }
+        .github {
+          fill: #fff;
+          transition: 0.3s;
+
+          &:hover {
+            fill: #999;
+          }
+        }
+        .linkedin {
+          fill: #fff;
+          transition: 0.3s;
+
+          &:hover {
+            fill: #0e76a8;
+          }
+        }
+
       }
     }
 

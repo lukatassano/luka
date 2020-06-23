@@ -11,13 +11,13 @@ function Contact() {
         <h1>Contato</h1>
         <div className="icons">
           <a href="https://www.facebook.com/luka.tassano/">
-            <FaFacebook size={50} color="#fff" />
+            <FaFacebook className="facebook" size={50} />
           </a>
           <a href="https://github.com/lukatassano">
-            <FaGithub size={50} color="#fff" />
+            <FaGithub className="github" size={50} />
           </a>
           <a href="https://www.linkedin.com/in/luka-avila-tassano-06aa52160/">
-            <FaLinkedin size={50} color="#fff" />
+            <FaLinkedin className="linkedin" size={50} />
           </a>
         </div>
 
