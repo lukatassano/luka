@@ -13,7 +13,7 @@ export const Container = styled.div`
   scroll-snap-type: mandatory;
   scroll-snap-points-y: repeat(300px);
   scroll-snap-type: y mandatory;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 `;
 
 export const Logo = styled.div`

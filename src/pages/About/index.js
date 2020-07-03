@@ -5,8 +5,8 @@ import { Container } from "./styles";
 
 function About() {
   return (
-    <Container>
-      <div id="about">
+    <Container id="about">
+      <div className="content">
         <h1>SOBRE</h1>
         <div className="text">
           <p>

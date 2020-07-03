@@ -6,7 +6,7 @@ export const Container = styled.div`
   width: 100%;
   align-items: center;
   justify-content: center;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 
   div {
     display: flex;

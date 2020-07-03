@@ -7,9 +7,9 @@ import { Container, Works, Button } from "./styles";
 
 function Work() {
   return (
-    <Container>
+    <Container id="work">
       <Works>
-        <div id="work">
+        <div>
           <a href="https://github.com/lukatassano/ecoleta-mobile">
             <nav className="display">
               <div className="project">
