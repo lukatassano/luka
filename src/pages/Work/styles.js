@@ -12,7 +12,7 @@ export const Container = styled.div`
 `;
 
 export const Works = styled.div`
-  height: 60vh;
+  height: 80vh;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
