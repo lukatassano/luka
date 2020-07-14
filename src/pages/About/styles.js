@@ -34,6 +34,10 @@ export const Container = styled.body`
       font-size: 60px;
       font-family: roboto;
       font-weight: 100;
+
+      @media (max-width: 370px) {
+        margin-bottom: 10px;
+      }
     }
     p {
       font-size: 20px;
@@ -50,6 +54,10 @@ export const Container = styled.body`
       align-items: center;
       justify-content: center;
       transition: all 0.3s;
+
+      @media (max-width: 370px) {
+        margin-top: 20px;
+      }
 
       &:hover {
         opacity: 60%;

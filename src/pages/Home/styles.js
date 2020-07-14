@@ -65,6 +65,10 @@ export const Buttons = styled.div`
   justify-content: center;
   animation: slideUp 1.5s;
 
+  @media (max-width: 370px) {
+    margin-top: 200px;
+  }
+
   a {
     outline: none;
     text-decoration: none;
@@ -88,6 +92,12 @@ export const Buttons = styled.div`
     text-align: center;
     width: 250px;
     cursor: pointer;
+
+    @media (max-width: 370px) {
+      height: 40px;
+      width: 200px;
+      line-height: 40px;
+    }
   }
 
   /* 
