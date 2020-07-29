@@ -16,7 +16,8 @@ export const Container = styled.body`
 
   #about {
     width: 100%;
-    height: 60vh;
+    height: auto;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
@@ -25,22 +26,29 @@ export const Container = styled.body`
 
     .text {
       width: 70%;
-      text-align: center;
+      text-align: start;
+
+      @media (max-width: 1200px) {
+        width: 90%;
+      }
     }
 
     h1 {
       margin-bottom: 40px;
       color: #fff;
       font-size: 60px;
-      font-family: roboto;
+      font-family: Roboto;
       font-weight: 100;
     }
     p {
       font-size: 20px;
       font-weight: 300;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+      font-family: Roboto;
       color: #fff;
+
+      @media (max-width: 600px) {
+        font-size: 16px;
+      }
     }
 
     .btn {
