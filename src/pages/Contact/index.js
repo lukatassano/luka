@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
+import { FiMail } from "react-icons/fi";
 
 import { Container } from "./styles";
 
@@ -10,6 +11,9 @@ function Contact() {
       <div>
         <h1>Contato</h1>
         <div className="icons">
+          <a href="mailto:lukatassano070@gmail.com">
+            <FiMail className="email" size={50} />
+          </a>
           <a href="https://www.facebook.com/luka.tassano/">
             <FaFacebook className="facebook" size={50} />
           </a>
@@ -18,6 +22,9 @@ function Contact() {
           </a>
           <a href="https://www.linkedin.com/in/luka-avila-tassano-06aa52160/">
             <FaLinkedin className="linkedin" size={50} />
+          </a>
+          <a href="whatsapp://send?phone=5551982668640">
+            <FaWhatsapp className="whatsapp" size={50} />
           </a>
         </div>
 
