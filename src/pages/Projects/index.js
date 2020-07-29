@@ -17,6 +17,12 @@ function Projects() {
                   id="aircnc"
                   src="https://github.com/lukatassano/ecoleta-mobile/blob/master/src/assets/logo.png?raw=true"
                 />
+                <ul>
+                  <h3>Tecnologias</h3>
+                  <li>&emsp;Node.js</li>
+                  <li>&emsp;ReactJS</li>
+                  <li>&emsp;React Native</li>
+                </ul>
               </div>
             </nav>
           </a>
@@ -27,6 +33,12 @@ function Projects() {
                   id="aircnc"
                   src="https://github.com/lukatassano/beTheHero/raw/master/assets/logo.svg?sanitize=true"
                 />
+                <ul>
+                  <h3>Tecnologias</h3>
+                  <li>&emsp;Node.js</li>
+                  <li>&emsp;ReactJS</li>
+                  <li>&emsp;React Native</li>
+                </ul>
               </div>
             </nav>
           </a>
@@ -38,6 +50,12 @@ function Projects() {
                   id="aircnc"
                   src="https://github.com/lukatassano/AirCnC/raw/master/mobile/src/assets/logo@3x.png"
                 />
+                <ul>
+                  <h3>Tecnologias</h3>
+                  <li>&emsp;Node.js</li>
+                  <li>&emsp;ReactJS</li>
+                  <li>&emsp;React Native</li>
+                </ul>
               </div>
             </nav>
           </a>
@@ -49,6 +67,11 @@ function Projects() {
                   id="rocketshoes"
                   src="https://github.com/lukatassano/rocketshoes/raw/master/images/rocketshoesLogo.svg?sanitize=true"
                 />
+                <ul>
+                  <h3>Tecnologias</h3>
+                  <li>&emsp;ReactJS</li>
+                  <li>&emsp;React Native</li>
+                </ul>
               </div>
             </nav>
           </a>
@@ -57,6 +80,10 @@ function Projects() {
             <nav>
               <div className="project">
                 <h1>GoNative</h1>
+                <ul>
+                  <h3>Tecnologias</h3>
+                  <li>&emsp;React Native</li>
+                </ul>
               </div>
             </nav>
           </a>
@@ -65,6 +92,10 @@ function Projects() {
             <nav>
               <div className="project">
                 <h1>GithubStars</h1>
+                <ul>
+                  <h3>Tecnologias</h3>
+                  <li>&emsp;React Native</li>
+                </ul>
               </div>
             </nav>
           </a>
@@ -74,6 +105,12 @@ function Projects() {
               <div className="planta">
                 <img src={planta} />
                 <h1>Incompleto</h1>
+                <ul>
+                  <h3>Tecnologias</h3>
+                  <li>&emsp;React Native</li>
+                  <li>&emsp;ArduinoIDE (linguagem C)</li>
+                  <li>&emsp;MQTT</li>
+                </ul>
               </div>
             </nav>
           </a>

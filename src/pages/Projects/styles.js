@@ -67,11 +67,6 @@ export const Works = styled.div`
       background-color: #777;
       align-items: center;
       justify-content: center;
-
-      @media (max-width: 400px) {
-        height: 300px;
-        width: 160px;
-      }
     }
 
     .project {
@@ -91,10 +86,32 @@ export const Works = styled.div`
       img {
         width: 80%;
       }
+
+      ul {
+        margin-top: 48px;
+        margin-left: 20px;
+        list-style: none;
+        color: #333;
+        align-self: flex-start;
+
+        h3 {
+          font-size: 18px;
+          font-weight: 300;
+          text-align: start;
+        }
+
+        li {
+          margin-top: 5px;
+          font-size: 14px;
+          font-weight: bold;
+          color: #555;
+        }
+      }
     }
 
     .planta {
       font-family: roboto;
+      margin: 0 2px;
       flex-direction: column;
       border-radius: 15px;
       height: 96%;
@@ -111,6 +128,27 @@ export const Works = styled.div`
       img {
         height: 100px;
         width: 100px;
+      }
+
+      ul {
+        margin-top: 48px;
+        margin-left: 20px;
+        list-style: none;
+        color: #333;
+        align-self: flex-start;
+
+        h3 {
+          font-size: 18px;
+          font-weight: 300;
+          text-align: start;
+        }
+
+        li {
+          margin-top: 5px;
+          font-size: 14px;
+          font-weight: bold;
+          color: #555;
+        }
       }
     }
     .block {
