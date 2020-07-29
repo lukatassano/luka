@@ -9,7 +9,7 @@ function Work() {
   return (
     <Container>
       <Works>
-        <div id="work">
+        <div id="projects">
           <a href="https://github.com/lukatassano/ecoleta-mobile">
             <nav className="display">
               <div className="project">
