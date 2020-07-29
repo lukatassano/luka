@@ -11,26 +11,48 @@ export const Container = styled.div`
   div {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     h1 {
       color: #fff;
       text-transform: uppercase;
       font-family: roboto;
       font-weight: 100;
-      font-size: 50px;
+      font-size: 60px;
       letter-spacing: 7px;
+
+      @media (max-width: 320px) {
+        font-size: 50px;
+      }
     }
 
     .icons {
       display: flex;
       flex-direction: row;
       margin-top: 30px;
+      align-items: center;
       justify-content: space-around;
 
       a {
+        margin: 0 8px;
         cursor: pointer;
         transition: opacity 0.3s;
 
+        @media (max-width: 320px) {
+          margin: 0 3px;
+        }
+
+        .email {
+          border-radius: 100px;
+          height: 100px;
+          stroke: #fff;
+          fill: #222;
+          transition: 0.3s;
+
+          &:hover {
+            stroke: #990000;
+          }
+        }
         .facebook {
           fill: #fff;
           transition: 0.3s;
@@ -55,7 +77,14 @@ export const Container = styled.div`
             fill: #0e76a8;
           }
         }
+        .whatsapp {
+          fill: #fff;
+          transition: 0.3s;
 
+          &:hover {
+            fill: #25d366;
+          }
+        }
       }
     }
 
@@ -83,8 +112,12 @@ export const Container = styled.div`
         line-height: 50px;
         height: 50px;
         text-align: center;
-        width: 250px;
+        width: 290px;
         cursor: pointer;
+
+        @media (max-width: 320px) {
+          width: 270px;
+        }
       }
 
       /* 
