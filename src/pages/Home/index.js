@@ -1,6 +1,6 @@
 import React from "react";
 import About from "../About";
-import Work from "../Work";
+import Projects from "../Projects";
 import Contact from "../Contact";
 import { Container, Logo, Buttons } from "./styles";
 
@@ -30,7 +30,7 @@ function App() {
               <span>Sobre</span>
             </div>
           </a>
-          <a href="#work">
+          <a href="#projects">
             <div className="btn btn-one">
               <span>Projetos</span>
             </div>
@@ -43,7 +43,7 @@ function App() {
         </Buttons>
       </Container>
       <About />
-      <Work />
+      <Projects />
       <Contact />
     </>
   );
