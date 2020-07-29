@@ -5,11 +5,11 @@ import planta from "../../assets/logo.png";
 
 import { Container, Works, Button } from "./styles";
 
-function Work() {
+function Projects() {
   return (
-    <Container>
+    <Container id="projects">
       <Works>
-        <div id="projects">
+        <div>
           <a href="https://github.com/lukatassano/ecoleta-mobile">
             <nav className="display">
               <div className="project">
@@ -88,4 +88,4 @@ function Work() {
   );
 }
 
-export default Work;
+export default Projects;

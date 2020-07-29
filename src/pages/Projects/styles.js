@@ -8,7 +8,7 @@ export const Container = styled.div`
   width: 100%;
   align-items: center;
   justify-content: center;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
 `;
 
 export const Works = styled.div`
@@ -21,6 +21,10 @@ export const Works = styled.div`
   overflow: scroll;
   scroll-snap-points-y: repeat(100px);
   align-items: center;
+
+  @media (max-width: 400px) {
+    height: 70vh;
+  }
 
   ::-webkit-scrollbar-track {
     background-color: #444;
@@ -63,10 +67,16 @@ export const Works = styled.div`
       background-color: #777;
       align-items: center;
       justify-content: center;
+
+      @media (max-width: 400px) {
+        height: 300px;
+        width: 160px;
+      }
     }
 
     .project {
       display: flex;
+      margin: 0 2px;
       border-radius: 15px;
       height: 96%;
       width: 200px;
@@ -111,7 +121,7 @@ export const Works = styled.div`
 
 export const Button = styled.div`
   display: flex;
-  margin-top: 50px;
+  margin-top: 20px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
